@@ -9,7 +9,7 @@ p{
     font-family: Verdana, Arial;
     color: white;
 }
-#header{
+.header{
     text-shadow: 3px 3px 5px black;
     font-family: Verdana, Arial;
     color: white;
