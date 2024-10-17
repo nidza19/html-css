@@ -1,19 +1,26 @@
 body{
-    background-color: lightsteelblue;
-    margin: 50px;
+    background-image: url(slike/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 p{
     font-family: Verdana, Arial;
+    color: white;
 }
-#naslov{
+#header{
     text-shadow: 3px 3px 5px black;
     font-family: Verdana, Arial;
-    background-color: steelblue;
     color: white;
     text-align: center;
 }
+#uvod{
+    color: white;
+}
 #komponente{
     font-family: Verdana, Arial;
+    color: white;
 }
 .slika_video{
     display: flex;
@@ -31,5 +38,9 @@ p{
     border: 3px solid steelblue
 }
 .naslov2{
+    color: white;
     font-family: Verdana, Arial;
+}
+.footer{
+    background-color: white;
 }
